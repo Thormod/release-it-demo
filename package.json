@@ -1,8 +1,8 @@
 {
-  "name": "sample",
+  "name": "@thormod/release-it-demo",
   "version": "1.0.0",
-  "description": "",
-  "author": "",
+  "description": "<p align=\"center\">   <a href=\"http://nestjs.com/\" target=\"blank\"><img src=\"https://nestjs.com/img/logo_text.svg\" width=\"320\" alt=\"Nest Logo\" /></a> </p>",
+  "author": "Thormod",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -72,5 +72,17 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thormod/release-it-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Thormod/release-it-demo/issues"
+  },
+  "homepage": "https://github.com/Thormod/release-it-demo#readme"
 }
