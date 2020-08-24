@@ -77,6 +77,9 @@
   "directories": {
     "test": "test"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Thormod/release-it-demo.git"
